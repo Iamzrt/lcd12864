@@ -1,0 +1,356 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\LCD12864\project_dir\keil\project\lcd12864.uvproj
+Project File Date:  12/30/2019
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+..\..\user\main.c(15): warning C318: can't open file './main.h'
+linking...
+Program Size: data=9.0 xdata=0 code=16
+"lcd12864" - 0 Error(s), 1 Warning(s).
+compiling main.c...
+..\..\user\main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=16
+"lcd12864" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=16
+"lcd12864" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(46): error C202: 'LCD12864_Data': undefined identifier
+..\..\DRIVERS\LCD12864\LCD12864.C(50): error C202: 'LCD12864_E': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(60): error C141: syntax error near '='
+..\..\DRIVERS\LCD12864\LCD12864.C(61): error C141: syntax error near '='
+..\..\DRIVERS\LCD12864\LCD12864.C(65): error C141: syntax error near '='
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(60): error C141: syntax error near '='
+..\..\DRIVERS\LCD12864\LCD12864.C(61): error C141: syntax error near '='
+..\..\DRIVERS\LCD12864\LCD12864.C(65): error C141: syntax error near '='
+Target not created
+Build target 'Target 1'
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(60): error C202: 'P21': undefined identifier
+..\..\DRIVERS\LCD12864\LCD12864.C(61): error C202: 'P22': undefined identifier
+..\..\DRIVERS\LCD12864\LCD12864.C(65): error C202: 'P23': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(60): error C141: syntax error near '='
+..\..\DRIVERS\LCD12864\LCD12864.C(61): error C141: syntax error near '='
+..\..\DRIVERS\LCD12864\LCD12864.C(65): error C141: syntax error near '='
+Target not created
+Build target 'Target 1'
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(67): warning C206: 'elseif': missing function-prototype
+..\..\DRIVERS\LCD12864\LCD12864.C(67): error C267: 'elseif': requires ANSI-style prototype
+..\..\DRIVERS\LCD12864\LCD12864.C(68): error C141: syntax error near '{'
+..\..\DRIVERS\LCD12864\LCD12864.C(78): error C211: call not to a function
+Target not created
+Build target 'Target 1'
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(78): error C211: call not to a function
+Target not created
+Build target 'Target 1'
+compiling lcd12864.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_INIT?LCD12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_CLEAR_SCREEN?LCD12864
+Program Size: data=9.0 xdata=0 code=134
+"lcd12864" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(67): warning C235: parameter 1: different types
+compiling main.c...
+..\..\USER\MAIN.C(39): warning C206: 'lcd12864_init': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_CLEAR_SCREEN?LCD12864
+Program Size: data=17.0 xdata=0 code=324
+"lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(67): warning C235: parameter 1: different types
+compiling main.c...
+..\..\USER\./MAIN.H(20): warning C318: can't open file '../drivers/lcd12864.h'
+..\..\USER\MAIN.C(39): warning C206: 'lcd12864_init': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_CLEAR_SCREEN?LCD12864
+Program Size: data=17.0 xdata=0 code=324
+"lcd12864" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_CLEAR_SCREEN?LCD12864
+Program Size: data=17.0 xdata=0 code=324
+"lcd12864" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=17.0 xdata=0 code=329
+"lcd12864" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=17.0 xdata=0 code=329
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(67): warning C235: parameter 1: different types
+compiling main.c...
+linking...
+Program Size: data=17.0 xdata=0 code=329
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=17.0 xdata=0 code=329
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(67): warning C235: parameter 1: different types
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?MAIN
+Program Size: data=17.0 xdata=0 code=435
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_INIT?LCD12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_CLEAR_SCREEN?LCD12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?MAIN
+Program Size: data=25.0 xdata=0 code=427
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_INIT?LCD12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_CLEAR_SCREEN?LCD12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?MAIN
+Program Size: data=25.0 xdata=0 code=421
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_INIT?LCD12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_CLEAR_SCREEN?LCD12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?MAIN
+Program Size: data=25.0 xdata=0 code=427
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(67): warning C235: parameter 1: different types
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_INIT?LCD12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_CLEAR_SCREEN?LCD12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?MAIN
+Program Size: data=25.0 xdata=0 code=426
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_INIT?LCD12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_CLEAR_SCREEN?LCD12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?MAIN
+Program Size: data=25.0 xdata=0 code=425
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?MAIN
+Program Size: data=17.0 xdata=0 code=433
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?MAIN
+Program Size: data=17.0 xdata=0 code=433
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?MAIN
+Program Size: data=17.0 xdata=0 code=433
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(62): warning C235: parameter 1: different types
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?MAIN
+Program Size: data=17.0 xdata=0 code=410
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?MAIN
+Program Size: data=17.0 xdata=0 code=410
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(62): warning C235: parameter 1: different types
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?MAIN
+Program Size: data=17.0 xdata=0 code=409
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(62): warning C235: parameter 1: different types
+..\..\DRIVERS\LCD12864\LCD12864.C(179): error C129: missing ';' before 'code'
+Target not created
+Build target 'Target 1'
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(62): warning C235: parameter 1: different types
+..\..\DRIVERS\LCD12864\LCD12864.C(182): error C202: 'OPS_DATnum': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(62): warning C235: parameter 1: different types
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_WRITE_NUMBER?LCD12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?MAIN
+Program Size: data=17.0 xdata=0 code=436
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(62): warning C235: parameter 1: different types
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?MAIN
+Program Size: data=17.0 xdata=0 code=441
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(64): warning C235: parameter 1: different types
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?MAIN
+Program Size: data=17.0 xdata=0 code=445
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(64): warning C235: parameter 1: different types
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?LCD12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?MAIN
+Program Size: data=21.0 xdata=0 code=470
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(64): warning C235: parameter 1: different types
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?LCD12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?MAIN
+Program Size: data=21.0 xdata=0 code=470
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(64): warning C235: parameter 1: different types
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?LCD12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?MAIN
+Program Size: data=21.0 xdata=0 code=470
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(64): warning C235: parameter 1: different types
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?LCD12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?MAIN
+Program Size: data=21.0 xdata=0 code=470
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling lcd12864.c...
+..\..\DRIVERS\LCD12864\LCD12864.C(64): warning C235: parameter 1: different types
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?LCD12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?MAIN
+Program Size: data=17.0 xdata=4 code=548
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling lcd12864.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?LCD12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?MAIN
+Program Size: data=17.0 xdata=1 code=391
+creating hex file from "..\object\lcd12864"...
+"..\object\lcd12864" - 0 Error(s), 2 Warning(s).

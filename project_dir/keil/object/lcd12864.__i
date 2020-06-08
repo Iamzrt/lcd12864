@@ -1,0 +1,1 @@
+"..\..\drivers\lcd12864\lcd12864.c" BROWSE DEBUG OBJECTEXTEND PRINT(.\lcd12864.lst) TABS (2) OBJECT(..\object\lcd12864.obj)
